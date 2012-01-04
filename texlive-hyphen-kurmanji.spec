@@ -46,12 +46,12 @@ UTF-8 encodings.
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-kurmanji <<EOF
-%% from hyphen-kurmanji:
+\%\% from hyphen-kurmanji:
 kurmanji loadhyph-kmr.tex
 EOF
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-kurmanji <<EOF
-%% from hyphen-kurmanji:
+\%\% from hyphen-kurmanji:
 \addlanguage{kurmanji}{loadhyph-kmr.tex}{}{2}{2}
 EOF
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
