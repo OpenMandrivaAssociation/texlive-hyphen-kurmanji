@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hyphen-kurmanji
 Version:	20111103
-Release:	1
+Release:	2
 Summary:	Kurmanji hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
